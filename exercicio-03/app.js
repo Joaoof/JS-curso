@@ -64,8 +64,12 @@ itens "Lilica" e "Matilda";
 - Exiba a "dogNames" no console.
 */
 
+const maleDogNames = ['Chico' +', ' + 'Zeca']
+const femaleDognames = ['Lilica' + ' e ' + 'Matilda']
 
+let dogNames = maleDogNames + ', ' + femaleDognames
 
+console.log(dogNames)
 /*
 07 - Comente o console.log acima e:
 
