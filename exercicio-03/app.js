@@ -22,7 +22,8 @@ let brazilianFoods = []
 - Exiba a brazilianFoods no console.
 */
 
-
+brazilianFoods.push('Coxinha', 'null', 'Brigadeiro')
+console.log(brazilianFoods)
 
 /*
 04 - Comente o console.log acima e:
