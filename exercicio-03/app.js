@@ -48,7 +48,9 @@ mas sem digitar os nomes das comidas diretamente;
 - Exiba a foodsInfo no console.
 */
 
+const foodsInfo = `Até aqui, o array "brazilianFoods" possui ${brazilianFoods.length} itens: ${brazilianFoods[0]}, ${brazilianFoods[1]} e ${brazilianFoods[2]}`
 
+console.log(foodsInfo)
 
 /*
 06 - Comente o console.log acima e:
