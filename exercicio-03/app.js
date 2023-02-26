@@ -23,7 +23,6 @@ let brazilianFoods = []
 */
 
 brazilianFoods.push('Coxinha', 'null', 'Brigadeiro')
-console.log(brazilianFoods)
 
 /*
 04 - Comente o console.log acima e:
@@ -33,7 +32,8 @@ array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
 - Exiba apenas o 2º item desse array no console.
 */
 
-
+brazilianFoods[1] = 'Pão de Queijo'
+console.log(brazilianFoods)
 
 /*
 05 - Comente o console.log acima e:
