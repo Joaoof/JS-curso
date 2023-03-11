@@ -64,10 +64,10 @@ itens "Lilica" e "Matilda";
 - Exiba a "dogNames" no console.
 */
 
-const maleDogNames = ['Chico' +', ' + 'Zeca']
-const femaleDognames = ['Lilica' + ' e ' + 'Matilda']
+const maleDogNames = ['Chico', 'Zeca']
+const femaleDogNames = ['Lilica', 'Matilda']
 
-let dogNames = maleDogNames + ', ' + femaleDognames
+let dogNames = maleDogNames.concat(femaleDogNames)
 
 console.log(dogNames)
 /*
