@@ -79,7 +79,7 @@ console.log(dogNames)
 - O resultado deve ser: "nome1, nome2, nome3, nome4".
 */
 
-
+console.log(dogNames.join(', '))
 
 /*
 08 - Comente o console.log acima e:
