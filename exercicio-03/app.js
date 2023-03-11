@@ -93,8 +93,9 @@ utilizando o método adequado para isso;
 - O console deve continuar exibindo o último item do array, que  
 agora é "Lilica".
 */
+dogNames.pop() // remove o ultimo ítem
 
-
+console.log(dogNames[dogNames.length - 1])
 
 /*
 09 - Comente o console.log acima e:
