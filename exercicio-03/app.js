@@ -141,7 +141,12 @@ constante que você criou.
 'A SOBREMESA é um doce à base de coco, tradicional na América Latina e em Angola.'
 */
 
+const dessert = `${dogNames[0].slice(3, 5)}${dogNames[1].slice(2, 5)}${dogNames[3].slice(2, 5).replace('n', 'd')}`
 
+console.log(dessert)
+
+
+console.log(`A ${dessert} é um doce à base de coco, tradicional na América Latina e em Angola.').replace('SOBREMESA`)
 
 /*
 12 - Comente o console.log acima e:
