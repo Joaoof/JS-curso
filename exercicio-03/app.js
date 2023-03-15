@@ -109,7 +109,12 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Exiba a "initials" no console.
 */
 
+dogNames.push('Nina')
 
+const initials = `${dogNames[0][0]}${dogNames[1][0]}${dogNames[2][0]}${dogNames[3][0]}`
+
+console.log(initials)
+console.log(dogNames)
 
 /*
 10 - Comente o console.log acima e:
