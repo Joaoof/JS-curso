@@ -123,7 +123,7 @@ console.log(dogNames)
 - Utilize o método adequado para isso.
 */
 
-
+console.log(initials.toLowerCase())
 
 /*
 11 - Comente o console.log acima e:
