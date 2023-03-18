@@ -9,3 +9,8 @@ const arrayIncludes = names.includes('roger')
 
 console.log(includes)
 console.log(includes)
+
+// Operadores de comparação
+const age = 31
+
+console.log(age == 31)
